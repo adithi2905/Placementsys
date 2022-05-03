@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hibernate-mapping>
+<class name="Recruitersignup" table="Recruiterdetails">
+<property name="company"/>
+<property name="job"/>
+<property name="location"/>
+<property name="lpa"/>
+<property name="applicable"/>
+<property name="contact"/>
+</class>
+</hibernate-mapping>
