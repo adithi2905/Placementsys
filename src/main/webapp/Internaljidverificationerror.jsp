@@ -2,10 +2,57 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
+	<style>
+body
+{
+background-color:#5c5470;
+}
+h2
+{
+color: rgb(0,0,102);
+}
+input
+{
+  border-color: rgb(0,0,102);
+  color: red;
+}
+div
+{
+background-color: #c7b198;
+color:#c51350;
+font-family: lato;
+font-size:120%;
+resize: both;
+line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  border-width: 2px;
+  border-color: rgb(0,0,102);
+  padding:2%;
+  position: absolute;
+  transform:translate(0%,0%);
+  top:15%;
+  left:40%;
+    
+}
+img
+{
+width: 2%;
+radius: 2%;
+length: 15%;
+align: right;
+}
+input[type=submit] {
+            background-color:none;
+            border: none;
+            text-decoration: none;
+            color: red;
+            padding: 15px 15px;
+            margin: 20px 20px;
+            cursor: pointer;
+            top: 75%;
+}
+</style>
 <%
 if(session.getAttribute("rollno")==null)
 	response.sendRedirect("stulogin.jsp");
